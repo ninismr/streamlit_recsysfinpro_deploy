@@ -25,7 +25,6 @@ MarkupSafe==2.1.5
 mccabe==0.6.1
 mdurl==0.1.2
 narwhals==1.8.1
-numpy==1.25.2
 packaging==23.0
 pandas==2.0.3
 pillow==10.4.0
