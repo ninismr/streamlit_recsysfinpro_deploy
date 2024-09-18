@@ -24,7 +24,7 @@ def main():
         if selected_user_id != 'None':
             user_order_data = df_olist_clean[df_olist_clean['customer_unique_id'] == selected_user_id][['customer_unique_id', 'order_id', 'product_id', 'product_category_name', 'order_purchase_timestamp']].drop_duplicates(subset='order_id')
 
-            st.write(f"**Order Data for User ID: {selected_user_id}**")
+            st.write(f"**Purchase History of User ID: {selected_user_id}**")
             st.dataframe(user_order_data)
 
             user_data = data[data['user_id'] == selected_user_id]
